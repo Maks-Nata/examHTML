@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body{
+  background: #FAF4F2;
+  font-family: "Poppins", serif;
+}
+.width-1140{
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+/*----------Main(I'm Mohammad Reza)--------*/
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  width: 475px;
+  color: #222;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+  margin: 12px 201px 7px 32px;
+}
+.main__Mohammad__Reza p{
+  width: 509px;
+  color: #222;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 167px 54px 32px;
+}
+.main__Mohammad__Reza img{
+  width: 240px;
+  height: 48px;
+  margin-left: 32px;
+}
+.main__buttons button:first-child{
+  width: 151px;
+  height: 55px;
+  border-radius: 10px;
+  background: #FF2950;
+  color: #F9F9F9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 17px 30px 0 34px;
+}
+.main__buttons button:last-child{
+  width: 153px;
+  height: 55px;
+  border-radius: 10px;
+  border: 2px solid #FF9B70;
+  color: rgba(34, 34, 34, 0.50);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+.main__photo__Mohammad__Reza{
+  width: 406px;
+  height: 406px;
+  margin: 0 26px 63px 0;
+}
+/*----------------section 120+ Completed Projects---------------------*/
+.Completed__Projects{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:32px;
+  margin: 125px 0;
+  width: 1140px;
+  height: 519px;
+  border-radius: 35px;
+  background: #FF7315;
+}
+.Completed__Projects div h2:first-child{
+  color: #F9F9F9;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+}
+.Completed__Projects div h2:nth-child(2){
+  color: #F9F9F9;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+.Completed__Projects div h3{
+  color: #F9F9F9;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+}
+.Completed__Projects div p{
+  width: 570px;
+  color: #F9F9F9;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+}
+/*-------section__Why__Hire__me?*/
+.title__Why__Hire__me {
+  color: #222;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+  margin-bottom: 100px;
+}
+.Why__Hire__me{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+
+}
+.Why__Hire__me div{
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.Why__Hire__me div div{
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  background: rgba(34, 34, 34, 0.10);
+ }
+.Why__Hire__me div h3{
+  color: #222;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 51px;
+  margin-bottom: 12px;
+}
+.Why__Hire__me div p{
+  width: 240px;
+  color: rgba(34, 34, 34, 0.50);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+/*----Section Portfolio----------*/
+.title__Portfolio{
+  color: #222;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  margin-top: 125px;
+  margin-bottom: 64px;
+}
+.Portfolio-section-grid{
+  display: grid;
+  margin: 0 81px;
+  gap: 24px;
+  grid-template-columns: repeat(3,310px);
+  grid-template-rows: repeat(2,300px);
+  grid-template-areas:
+    "website-Start__your__Business  company-postcard pages"
+"pizzeria__brochure logo__Mockup Mockup__postcards";
+}
+.Portfolio-section-grid img:nth-child(1){
+  grid-area: website-Start__your__Business;
+}
+.Portfolio-section-grid img:nth-child(2){
+  grid-area: company-postcard;
+}
+.Portfolio-section-grid img:nth-child(3){
+  grid-area: pages;
+}
+.Portfolio-section-grid img:nth-child(4){
+  grid-area: pizzeria__brochure;
+}
+.Portfolio-section-grid img:nth-child(5){
+  grid-area: logo__Mockup;
+}
+.Portfolio-section-grid img:nth-child(6){
+  grid-area:Mockup__postcards;
+}
+/*-----------Section Global Love-----------*/
+.Global__Love{
+  width: 100%;
+  height: 643px;
+  background: #FF7315;
+  margin:125px 0;
+
+
+}
+.Global__Love__container{
+  width: 1140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap:82px;
+
+}
+.Global__Love__title{
+  width: 609px;
+  color: #F9F9F9;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  margin: 0 auto;
+  padding-top: 48px;
+
+}
+.Global__Love__container div{
+  width: 529px;
+  height: 179px;
+  border-radius: 30px;
+  background: #F9F9F9;
+  margin-top: 111px;
+
+}
+.Global__Love div div p{
+  width: 419px;
+  color: #222;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Global__Love div div p:nth-child(1){
+  margin: 24px auto 47px auto;
+}
+.Global__Love div div p:nth-child(2){
+  margin: 24px auto 11px auto;
+}
+/*---------Section Price Plan-----------*/
+.title__Price__Plans{
+  color: #222;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0 auto;
+}
+.Price__plans{
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 64px auto 100px auto;
+  gap:67px;
+}
+.Price__Plans__container div:first-child{
+  width: 335px;
+  height: 66px;
+  border-radius: 15px 15px 0 0;
+  background: #FF9B70;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:  #F9F9F9;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.6%;
+  text-transform: capitalize;
+}
+.Price__Plans__container{
+  width: 335px;
+  height: 500px;
+  border-radius: 15px;
+  background: #F9F9F9;
+  box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+}
+.Price__Plans__container h5{
+text-align: center;
+  color: #2B2B2B;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  margin: 36px auto 29px;
+  display: block;
+}
+.Price__Plans__container h5 span{
+  color: #2B2B2B;
+  font-kerning: none;
+  font-feature-settings: 'calt' off;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  opacity: 0.5;
+}
+.Price__Plans__container div:nth-child(n+2){
+  display: flex;
+  align-items: center;
+  gap:16px;
+  margin-left: 48px;
+}
+.Price__Plans__container div:nth-child(n+2) p{
+  color:  #222;
+  font-kerning: none;
+  font-feature-settings: 'calt' off;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.Price__Plans__container div:nth-child(n+2) svg{
+  width: 24.885px;
+  height: 24px;
+  margin-bottom: 16px;
+}
+.Price__Plans__container-seo p,
+.Price__Plans__container-seo svg,
+.Price__Plans__container-logo p,
+.Price__Plans__container-logo svg,
+.Price__Plans__container-20GB p,
+.Price__Plans__container-20GB svg,
+.Price__Plans__container-wordPress p,
+.Price__Plans__container-website p,
+.Price__Plans__container-wordPress svg,
+.Price__Plans__container-website svg,
+.Price__Plans__container-users p,
+.Price__Plans__container-users svg
+{
+  opacity: 0.5;
+  }
+/*------Section Contact-email----------*/
+.contact-email{
+  width: 1110px;
+  height: 224px;
+  border-radius: 25px;
+  background:#FF7315;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.contact-email h3{
+  color:#F9F9F9;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+  width: 343px;
+  margin-left: 75px;
+  margin-right: 333px;
+}
+.contact-email button{
+  width: 259px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background:  #F9F9F9;
+  box-shadow: 0 0.927px 1.924px 0 rgba(0, 0, 0, 0.01);
+  color: #222;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/*-------Section Blog-------------*/
+.title__Section__Blog{
+  color: #222;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+  width: 1140px;
+  margin: 125px auto 48px auto;
+
+}
+.Blog{
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+  width: 1140px;
+  margin: 0 auto;
+}
+.Blog div{
+  width: 270px;
+  height: 364px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #F9F9F9;
+  box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Blog div h4{
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  margin-top: 24.1px;
+}
+.Blog div p{
+  width: 240px;
+  height: 70px;
+  flex-shrink: 0;
+  color: rgba(34, 34, 34, 0.50);
+  font-kerning: none;
+  font-feature-settings: 'calt' off;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-top: 12px;
+}
+.Blog div img{
+  margin-top: 14.76px;
+}
+/*------footer-----------*/
+footer{
+  width: 100%;
+  margin-top: 125px;
+  height: 170px;
+  background: #F1F1F1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  color: #222;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
