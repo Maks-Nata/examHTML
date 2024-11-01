@@ -274,7 +274,7 @@ h1{
   margin: 64px auto 100px auto;
   gap:67px;
 }
-.Price__Plans__container div:first-child{
+.Price__Plans__container-rating{
   width: 335px;
   height: 66px;
   border-radius: 15px 15px 0 0;
@@ -298,15 +298,15 @@ h1{
   box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
 }
 .Price__Plans__container h5{
-text-align: center;
+  text-align: center;
   color: #2B2B2B;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 123.6%;
-  text-transform: capitalize;
+  line-height: 39.55px;
+   text-transform: capitalize;
   margin: 36px auto 29px;
-  display: block;
+
 }
 .Price__Plans__container h5 span{
   color: #2B2B2B;
@@ -315,9 +315,10 @@ text-align: center;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height:  24px;
   text-transform: capitalize;
   opacity: 0.5;
+  padding-left: 12px;
 }
 .Price__Plans__container div:nth-child(n+2){
   display: flex;
