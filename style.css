@@ -71,6 +71,7 @@ h1{
   width: 406px;
   height: 406px;
   margin: 0 26px 63px 0;
+  object-fit: cover;
 }
 /*----------------section 120+ Completed Projects---------------------*/
 .Completed__Projects{
